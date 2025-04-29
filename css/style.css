@@ -281,7 +281,7 @@ svg .regione-hover:hover {
 
 /* News Letter */
 .container-news-letter {
-  width: 100vw;
+  width: 100%;
   min-height: 430px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -396,7 +396,7 @@ footer nav ul li a {
   margin: auto;
   align-items: center;
 }
-.paragrafo-uno p { margin-bottom: 20px; padding-right: 50px; }
+.paragrafo-uno p { margin-bottom: 20px;}
 .container-punti-interesse { display: flex; align-items: baseline; padding-top: 20px;}
 .testo-uno { max-width: 575px; }
 .testo-uno p { padding-bottom: 20px; }
@@ -683,5 +683,18 @@ footer nav ul li a {
   .sticky-element {
     position: relative;
     top: auto;
+  }
+
+  .container-intro {
+    flex-direction: column;
+    margin: 0 15px;
+  }
+  
+  .footer, header, .testo-uno {
+    margin: 0 15px;
+  }
+
+  .contenitore-cards {
+    margin: 0 20px;
   }
 }
