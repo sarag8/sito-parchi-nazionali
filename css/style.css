@@ -80,7 +80,7 @@ img {
 h1 { font-size: 60px; font-weight: 700; }
 h2 { font-size: 36px; font-weight: 500; }
 h3 { font-size: 22px; font-weight: 500; }
-p  { font-size: 20px; font-weight: 400; text-align: left; }
+p  { font-size: 18px; font-weight: 400; text-align: left; }
 h4 { font-size: 14px; font-weight: 400; }
 h5 { font-size: 16px; font-weight: 400;}
 h6 { font-size: 16px; font-weight: 400;}
@@ -138,7 +138,7 @@ h6 { font-size: 16px; font-weight: 400;}
 .bottone a:hover {text-decoration: underline; text-underline-offset: 5px;}
 
 .bottone-2 {
-  color: var(--colore1);
+  color: var(--colore1) !important;
   background: var(--colore2);
   margin-top: 50px;
   padding: 20px 30px;
@@ -177,10 +177,12 @@ h6 { font-size: 16px; font-weight: 400;}
 .zoom {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
 .zoom:hover {
   transform: scale(1);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2  );
 }
+
 .zoom img {
   transition: transform 0.3s ease-in-out;
 }

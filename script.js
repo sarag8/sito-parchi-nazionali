@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let scrollAmount = 0;
 
   function autoScroll() {
-      scrollAmount += 0.5; // Velocità più fluida
+      scrollAmount +=0.9; // Velocità più fluida
       if (scrollAmount >= itemWidth * items.length) {
           scrollAmount = 0; // Reset per il loop infinito
       }
